@@ -22,3 +22,6 @@
 - Create a file to capture every things.
 - Translate
 - OpenAI
+
+Ref:
+https://medium.com/ios-os-x-development/speech-recognition-with-swift-in-ios-10-50d5f4e59c48

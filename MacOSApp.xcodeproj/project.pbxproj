@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60268FC2A07B42600EC8031 /* RecordConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60268FB2A07B42600EC8031 /* RecordConstants.swift */; };
+		A60268FE2A07B44200EC8031 /* RecordUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60268FD2A07B44200EC8031 /* RecordUtil.swift */; };
+		A60269002A07B46800EC8031 /* RecordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60268FF2A07B46800EC8031 /* RecordService.swift */; };
 		A6A9EB5329F19637005B9EBC /* MacOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A9EB5229F19637005B9EBC /* MacOSAppApp.swift */; };
 		A6A9EB5529F19637005B9EBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A9EB5429F19637005B9EBC /* ContentView.swift */; };
 		A6A9EB5729F19637005B9EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A9EB5629F19637005B9EBC /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A60268FB2A07B42600EC8031 /* RecordConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordConstants.swift; sourceTree = "<group>"; };
+		A60268FD2A07B44200EC8031 /* RecordUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordUtil.swift; sourceTree = "<group>"; };
+		A60268FF2A07B46800EC8031 /* RecordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordService.swift; sourceTree = "<group>"; };
 		A6A9EB4F29F19637005B9EBC /* MacOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A9EB5229F19637005B9EBC /* MacOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSAppApp.swift; sourceTree = "<group>"; };
 		A6A9EB5429F19637005B9EBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +62,9 @@
 				A6D0AD4529FBB5F4001B91C3 /* Info.plist */,
 				A6A9EB5229F19637005B9EBC /* MacOSAppApp.swift */,
 				A6A9EB5429F19637005B9EBC /* ContentView.swift */,
+				A60268FF2A07B46800EC8031 /* RecordService.swift */,
+				A60268FD2A07B44200EC8031 /* RecordUtil.swift */,
+				A60268FB2A07B42600EC8031 /* RecordConstants.swift */,
 				A6A9EB5629F19637005B9EBC /* Assets.xcassets */,
 				A6A9EB5B29F19637005B9EBC /* MacOSApp.entitlements */,
 				A6A9EB5829F19637005B9EBC /* Preview Content */,
@@ -116,7 +125,6 @@
 			);
 			mainGroup = A6A9EB4629F19637005B9EBC;
 			packageReferences = (
-				A6EAF89429FEC76900D90152 /* XCRemoteSwiftPackageReference "BlackHole" */,
 			);
 			productRefGroup = A6A9EB5029F19637005B9EBC /* Products */;
 			projectDirPath = "";
@@ -144,8 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A60268FE2A07B44200EC8031 /* RecordUtil.swift in Sources */,
 				A6A9EB5529F19637005B9EBC /* ContentView.swift in Sources */,
 				A6A9EB5329F19637005B9EBC /* MacOSAppApp.swift in Sources */,
+				A60268FC2A07B42600EC8031 /* RecordConstants.swift in Sources */,
+				A60269002A07B46800EC8031 /* RecordService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,17 +356,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A6EAF89429FEC76900D90152 /* XCRemoteSwiftPackageReference "BlackHole" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ExistentialAudio/BlackHole.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.5.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = A6A9EB4729F19637005B9EBC /* Project object */;
 }
